@@ -1,0 +1,119 @@
+{
+    "supplier": "cepsa",
+    "date": "2025-02-18",
+    "due_date": "2025-02-25",
+    "number": "987432948575",
+    "primary_amount": {
+        "amount": 6137.69,
+        "currency": "EUR"
+    },
+    "items": [],
+    "aggregated_items": [
+        {
+            "base": "AGP",
+            "description": "JET FUEL",
+            "quantity_priced": {
+                "value": 8933.0,
+                "unit": "L"
+            },
+            "unit_price_dto": {
+                "amount": 0.72082442,
+                "currency": "EUR",
+                "unit": "L"
+            },
+            "primary_amount": {
+                "amount": 5945.82,
+                "currency": "EUR"
+            }
+        },
+        {
+            "base": "AGP",
+            "description": "SUSTAINABLE AVIATION FUEL (SAF)",
+            "quantity_priced": {
+                "value": 182.0,
+                "unit": "L"
+            },
+            "unit_price_dto": {
+                "amount": 2.73047442,
+                "currency": "EUR",
+                "unit": "L"
+            },
+            "primary_amount": {
+                "amount": 499.95,
+                "currency": "EUR"
+            }
+        },
+        {
+            "base": "AGP",
+            "description": "AIRPORT FEE",
+            "quantity_priced": {
+                "value": 9115.0,
+                "unit": "L"
+            },
+            "unit_price_dto": {
+                "amount": 0.004803,
+                "currency": "EUR",
+                "unit": "L"
+            },
+            "primary_amount": {
+                "amount": 44.66,
+                "currency": "EUR"
+            }
+        },
+        {
+            "base": "AGP",
+            "description": "Hook up Fee",
+            "quantity_priced": {
+                "value": 1.0,
+                "unit": "SUM"
+            },
+            "primary_amount": {
+                "amount": 35.8,
+                "currency": "EUR"
+            }
+        },
+        {
+            "base": "AGP",
+            "description": "CSO",
+            "quantity_priced": {
+                "value": 9115.0,
+                "unit": "L"
+            },
+            "unit_price_dto": {
+                "amount": 0.0047806,
+                "currency": "EUR",
+                "unit": "L"
+            },
+            "primary_amount": {
+                "amount": 44.46,
+                "currency": "EUR"
+            }
+        }
+    ],
+    "delivery_records": [
+        {
+            "id": "0000405664",
+            "base": "AGP",
+            "date": "2025-02-15",
+            "flight_number": "AF1065",
+            "aircraft_registration": "LYABC",
+            "quantity": {
+                "value": 8933.0,
+                "unit": "L"
+            },
+            "product": "40401 JET FUEL"
+        },
+        {
+            "id": "0000405664",
+            "base": "AGP",
+            "date": "2025-02-15",
+            "flight_number": "AF1065",
+            "aircraft_registration": "LYABC",
+            "quantity": {
+                "value": 182.0,
+                "unit": "L"
+            },
+            "product": "40405 SUSTAINABLE AVIATION FUEL (SAF)"
+        }
+    ]
+}

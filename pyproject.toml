@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-challenge"
+version = "0.1.0"
+description = ""
+authors = ["zenas1210 <zilvinas.pranaitis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdfplumber = "^0.11.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
